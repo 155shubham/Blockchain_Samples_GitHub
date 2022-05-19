@@ -1,0 +1,16 @@
+### Get valid chain and update when new node 5 gets added
+GET http://localhost:3005/consensus
+
+
+### Get valid chain and update when new node 4 gets added
+GET http://localhost:3004/consensus
+
+### Get valid chain and update when new node 3 gets added
+GET http://localhost:3003/consensus
+
+
+### Get valid chain and update when new node 2 gets added
+GET http://localhost:3002/consensus
+
+### Get valid chain and update when new node 1 gets added
+GET http://localhost:3001/consensus

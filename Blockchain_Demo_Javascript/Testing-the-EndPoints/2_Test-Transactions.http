@@ -1,0 +1,58 @@
+### Add a transaction from node-1
+POST http://localhost:3001/transaction/broadcast
+content-type: application/json
+
+{
+    "amount": 100,
+    "sender": "NODE1_SENDER",
+    "recipient": "RTYUJH&TYY"
+}
+
+### Add a transaction from node-2
+POST http://localhost:3002/transaction/broadcast
+content-type: application/json
+
+{
+    "amount": 12344.788,
+    "sender": "NODE2_SENDER",
+    "recipient": "NODE2_RECIPIENT"
+}
+
+### Add a transaction from node-3
+POST http://localhost:3003/transaction/broadcast
+content-type: application/json
+
+{
+    "amount": 1000000000000000000000000.1000000000000000,
+    "sender": "NODE3_SENDER",
+    "recipient": "NODE3_RECIPIENT"
+}
+
+### Add a transaction from node-4
+POST http://localhost:3004/transaction/broadcast
+content-type: application/json
+
+{
+    "amount": 0.1000,
+    "sender": "NODE4_SENDER",
+    "recipient": "NODE4_RECIPIENT"
+}
+
+### Add a transaction from node-5
+POST http://localhost:3005/transaction/broadcast
+content-type: application/json
+
+{
+    "amount": 1000000000000000000000000.1000000000000000,
+    "sender": "NODE5_SENDER",
+    "recipient": "NODE5_RECIPIENT"
+}
+### Add a transaction from node-5
+POST http://localhost:3005/transaction/broadcast
+content-type: application/json
+
+{
+    "amount": 10000.10000,
+    "sender": "SATYA",
+    "recipient": "MUKTI BHAI"
+}

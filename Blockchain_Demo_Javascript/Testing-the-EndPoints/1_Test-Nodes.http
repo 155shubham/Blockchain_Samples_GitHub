@@ -1,0 +1,47 @@
+### Add node-5 in the network
+POST http://localhost:3001/register-node-and-broadcast
+content-type: application/json
+
+{
+    "newNodeUrl": "http://localhost:3005" 
+}
+
+### Add node-4 in the network
+POST http://localhost:3001/register-node-and-broadcast
+content-type: application/json
+
+{
+    "newNodeUrl": "http://localhost:3004" 
+}
+
+### Add node-3 in the network
+POST http://localhost:3001/register-node-and-broadcast
+content-type: application/json
+
+{
+    "newNodeUrl": "http://localhost:3003" 
+}
+
+### Add node-2 in the network
+POST http://localhost:3001/register-node-and-broadcast
+content-type: application/json
+
+{
+    "newNodeUrl": "http://localhost:3002" 
+}
+
+### Add node-1 in the network
+POST http://localhost:3001/register-node-and-broadcast
+content-type: application/json
+
+{
+    "newNodeUrl": "http://localhost:3001" 
+}
+
+### Add other nodes using node 2
+POST http://localhost:3002/register-node-and-broadcast
+content-type: application/json
+
+{
+    "newNodeUrl": "http://localhost:3005" 
+}

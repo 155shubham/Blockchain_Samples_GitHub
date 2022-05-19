@@ -1,0 +1,16 @@
+### Mine from node-1
+GET http://localhost:3001/mine
+
+### Mine from node-2
+GET http://localhost:3002/mine
+
+### Mine from node-3
+GET http://localhost:3003/mine
+
+### Mine from node-4
+GET http://localhost:3004/mine
+
+### Mine from node-5
+GET http://localhost:3005/mine
+
+
